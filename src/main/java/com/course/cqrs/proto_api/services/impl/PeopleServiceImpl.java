@@ -1,17 +1,17 @@
-package com.course.cqrs.proto_api.services;
+package com.course.cqrs.proto_api.services.impl;
 
 import com.course.cqrs.proto_api.models.Person;
+import com.course.cqrs.proto_api.services.PeopleService;
 import com.github.javafaker.Faker;
 import org.springframework.stereotype.Service;
 
-import java.awt.image.Kernel;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
 @Service
-public class PeopleServiceImpl implements PeopleService{
+public class PeopleServiceImpl implements PeopleService {
 
 
     private final List<Person> listOfPeople = new ArrayList<>();
@@ -23,7 +23,7 @@ public class PeopleServiceImpl implements PeopleService{
 
     @Override
     public List<Person> getPeople() {
-        return List.of();
+        return listOfPeople;
     }
 
     @Override

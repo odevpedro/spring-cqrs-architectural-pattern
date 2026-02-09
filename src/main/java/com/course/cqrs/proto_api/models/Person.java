@@ -1,10 +1,12 @@
 package com.course.cqrs.proto_api.models;
 
 import lombok.Builder;
+import lombok.Data;
 
 import java.util.Date;
 
 @Builder
+@Data
 public class Person {
 
 private String id;
