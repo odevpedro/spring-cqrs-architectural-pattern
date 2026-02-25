@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f7ed3bc-9d5a-489e-98f5-58df03b1f944" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-beautique/src/main/java/br/com/beautique/api/entities/AppointmentsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-beautique/src/main/java/br/com/beautique/api/entities/AppointmentsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-beautique/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-beautique/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
